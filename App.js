@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, } from 'react-native';
 import HomeScreen from './src/screens/Home';
 import SearchResultsScreen from './src/screens/Searchresults';
+import DestinationSearchScreen from './src/screens/DestinationSearch';
 import Post from './src/components/Post';
 
 import feed from './assets/data/feed';
@@ -17,7 +18,8 @@ export default function App() {
       <SafeAreaView>
         {/* <HomeScreen /> */}
         {/* <Post post={post1} /> */}
-        <SearchResultsScreen />
+        {/* <SearchResultsScreen /> */}
+        <DestinationSearchScreen />
       </SafeAreaView>
     </>
   );
