@@ -5,11 +5,15 @@ import HomeScreen from './src/screens/Home';
 import SearchResultsScreen from './src/screens/Searchresults';
 import DestinationSearchScreen from './src/screens/DestinationSearch';
 import Post from './src/components/Post';
+import GuestsScreen from './src/screens/Guests';
 
 import feed from './assets/data/feed';
 
 const post1 = feed[0];
 const post2 = feed[2];
+
+
+// alt + z will make the code auto-fit to the screen
 
 export default function App() {
   return (
@@ -19,7 +23,8 @@ export default function App() {
         {/* <HomeScreen /> */}
         {/* <Post post={post1} /> */}
         {/* <SearchResultsScreen /> */}
-        <DestinationSearchScreen />
+        {/* <DestinationSearchScreen /> */}
+        <GuestsScreen />
       </SafeAreaView>
     </>
   );
