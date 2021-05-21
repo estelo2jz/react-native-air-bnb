@@ -22,6 +22,13 @@ const Router = (props) => {
           }}
         /> */}
         <Stack.Screen
+          name={"Home"}
+          component={HomeTabNavigator}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
           name={"Destination Search"}
           component={DestinationSearchScreen}
           options={{
