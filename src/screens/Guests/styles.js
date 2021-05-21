@@ -3,6 +3,8 @@ import { StyleSheet, Dimensions } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     marginTop: 40,
+    justifyContent: 'space-between',
+    height: '100%',
   },
   row: {
     flexDirection: 'row',
