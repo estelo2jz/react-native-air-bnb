@@ -16,6 +16,7 @@ const Router = (props) => {
         }}
       />
 
+      {/* when we go back, it will redirecus to the home page on top. */}
       <Stack.Screen
         name={"SearchResults"}
         component={SearchResultsScreen}
