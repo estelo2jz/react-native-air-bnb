@@ -2,6 +2,7 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from '../screens/Home';
 import SearchResultsScreen from '../screens/Searchresults';
+import SearchResultsTabNavigator from './SearchResultsTabNavigator';
 
 const Stack = createStackNavigator();
 
@@ -19,7 +20,7 @@ const Router = (props) => {
       {/* when we go back, it will redirecus to the home page on top. */}
       <Stack.Screen
         name={"SearchResults"}
-        component={SearchResultsScreen}
+        component={SearchResultsTabNavigator}
         options={{
           title: 'Search your destination',
         }}
